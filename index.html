@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-<meta charset="utf-8">
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-<title>ニコライヒ</title>
+<head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <title>ニコライヒ</title>
 </head>
+
 <body>
-<script src="main.js"></script>
-<script>header();</script>
-<article>
-<h1>ニコライヒのWEBページ</h1>
-</article>
+    <div id="header"><!-- ここにheader.htmlが読み込まれる --></div>
+    <script>
+        $(function () {
+            $('#header').load('./header.html'); // #headerにheader.htmlを読み込む
+        });
+    </script>
+    <article>
+        <h1>ニコライヒのWEBページ</h1>
+    </article>
 </body>
+
 </html>
