@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="ja">
-
 <head>
-    <meta charset="utf-8">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-    <title>ニコライヒ</title>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-    <div id="header"><!-- ここにheader.htmlが読み込まれる --></div>
-    <script>
-        $(function () {
-            $('#header').load('./header.html'); // #headerにheader.htmlを読み込む
-        });
-    </script>
-    <article>
-        <h1>ニコライヒのWEBページ</h1>
-    </article>
-</body>
+  <header>
+    <div class="logo">
 
+    </div>
+    <div class="menu">
+      <span class="material-icons" id="open">menu</span>
+    </div>
+  </header>
+
+  <div class="overlay">
+    <span class="material-icons" id="close">close</span>
+  </div>
+</body>
 </html>
