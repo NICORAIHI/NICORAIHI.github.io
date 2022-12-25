@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  font-family: Verdana, sans-serif;
+}
+
+.overlay {
+  opacity: 0;
+  pointer-events: none;
+}
