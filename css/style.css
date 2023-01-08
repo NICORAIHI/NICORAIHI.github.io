@@ -25,6 +25,18 @@ ul {
   border: solid 1px red;
 }
 
+.btn {
+  display: block;
+  width: 160px;
+  background: #329e00;
+  color: #fff;
+  text-align: center;
+  padding: 8px 0;
+  border-radius: 4px;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
 /* body */
 
 /* header */
